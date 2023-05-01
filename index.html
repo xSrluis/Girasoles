@@ -6,9 +6,18 @@
   console.log("¡Hola! Bienvenido a mi página web.");
 </script>
 
-<audio autoplay>
+<audio id="mi-audio" controls>
   <source src="Yellow.mp3" type="audio/mp3">
 </audio>
+
+<script>
+  var audio = document.getElementById("mi-audio");
+
+  // Reproducir audio cuando el usuario interactúa con la página
+  document.addEventListener("DOMContentLoaded", function(event) {
+    audio.play();
+  });
+</script>
 <link rel="stylesheet" type="text/css" href="style.css">
 	<title></title>
 	<style>
