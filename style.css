@@ -3,7 +3,6 @@ html {
     scrollbar-width: none;
 }
 
-<audio controls>
-    <source src="ruta-a-tu-archivo-de-audio.mp3" type="audio/mpeg">
-    <source src="ruta-a-tu-archivo-de-audio.wav" type="audio/wav">
-</audio>
+audio {
+    display: none;
+}
